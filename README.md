@@ -25,7 +25,7 @@ A responsive and modern image gallery with:
 
 **🔗 Project Demo**  
 
-🌍 **Live Site**: [https://yourusername.github.io/your-repo-name]
+🌍 **Live Site**: [https://github.com/RutujaTayade/Image-Gallery]
 
 📂 **GitHub Repo**: [https://github.com/yourusername/your-repo-nam]
 
