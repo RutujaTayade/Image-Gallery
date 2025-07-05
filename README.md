@@ -25,11 +25,11 @@ A responsive and modern image gallery with:
 
 **🔗 Project Demo**  
 
-🌍 **Live Site**: [https://github.com/RutujaTayade/Image-Gallery]
+🌍 **Live Site**: [http://127.0.0.1:5500/Image%20Gallery/Gallery.html]
 
-📂 **GitHub Repo**: [https://github.com/yourusername/your-repo-nam]
+📂 **GitHub Repo**: [https://github.com/RutujaTayade/Image-Gallery]
 
-🖇 **LinkedIn**: [https://www.linkedin.com/in/your-linkedin-id]
+🖇 **LinkedIn**: [https://www.linkedin.com/in/rutuja-tayade-15a680357/]
 
 ---
 
