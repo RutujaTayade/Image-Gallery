@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.filters button:hover,
+.filters button.active {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  box-shadow: 0 0 12px #00c6ff;
+}
+
+.gallery {
+  column-count: 3;
+  column-gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image-box {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.image-box:hover img {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.lightbox img {
+  max-width: 80%;
+  max-height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(255,255,255,0.1);
+}
+
+.lightbox-controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.lightbox-controls button {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lightbox-controls button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+    column-count: 1;
+  }
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 50px;
+}
+
+.footer .social-icons {
+  margin: 10px 0;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer .social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  filter: brightness(0) invert(1);
+}
+
+.footer .social-icons img:hover {
+  transform: scale(1.2);
+}
+
