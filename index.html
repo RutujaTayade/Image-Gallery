@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📸 Welcome to My Image Gallery 📸</h1>
+
+  <div class="filters">
+    <button class="active" onclick="filterImages('all', this)">All</button>
+    <button onclick="filterImages('nature', this)">Nature</button>
+    <button onclick="filterImages('animals', this)">Animals</button>
+    <button onclick="filterImages('books', this)">Books</button>
+    <button onclick="filterImages('cars', this)">Cars</button>
+    <button onclick="filterImages('me', this)">MyClicks</button>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <!-- Nature Image-->
+    <div class="image-box nature"><img src="private/sunset in the city.jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/Beautiful Flower Background.jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/download (1).jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/download (2).jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/download (3).jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/download (13).jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/download (14).jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/download.jpeg" alt=""></div>     
+    <div class="image-box nature"><img src="private/palm trees.jpeg" alt=""></div>
+    <div class="image-box nature"><img src="private/sunset in the city.jpeg" alt=""></div>
+    
+
+    <!-- Animal Images-->
+    <div class="image-box animals"><img src="private/⋆౨ৎ˚⟡˖ ࣪.jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/10 Iconic Animal Photos and the Stories Behind Them.jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/3220a3d0-9fbf-4eb8-976b-787b19f2aee1.jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/ℂ𝕒𝕥𝕤.jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/download (4).jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/download (5).jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/download (6).jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/Panda.jpeg" alt=""></div>
+    <div class="image-box animals"><img src="private/Wild Horse Picture.jpeg" alt=""></div>
+
+    
+    
+    <!--Books Images-->
+    <div class="image-box books"><img src="private/books.jpeg" alt=""></div>
+    <div class="image-box books"><img src="private/bookshelf _3.jpeg" alt=""></div>
+    <div class="image-box books"><img src="private/download (7).jpeg" alt=""></div>
+   <div class="image-box books"><img src="private/download (9).jpeg" alt=""></div> 
+   <div class="image-box cars"><img src="private/download (10).jpeg" alt=""></div>
+    <div class="image-box book"><img src="private/download (8).jpeg" alt=""></div>
+    
+
+
+    <!--Cars Images-->
+    <div class="image-box cars"><img src="https://source.unsplash.com/500x400/?car" alt=""></div>
+    <div class="image-box cars"><img src="private/2021 Toyota Land Cruiser Review - Yanko Design.jpeg" alt=""></div>
+    <div class="image-box cars"><img src="private/download (11).jpeg" alt=""></div>
+    <div class="image-box cars"><img src="private/download (12).jpeg" alt=""></div>
+    <div class="image-box cars"><img src="private/Grand Vitara 🤌🏻.jpeg" alt=""></div>
+    <div class="image-box cars"><img src="private/Mercedes Benz #karengooncalves.jpeg" alt=""></div>
+    <div class="image-box cars"><img src="private/𝟐𝟎𝟐𝟑 𝐌𝐎𝐃𝐄𝐋 𝐓𝐎𝐘𝐎𝐓𝐀 𝐅𝐎𝐑𝐓𝐔𝐍𝐄𝐑 𝐋𝐄𝐆𝐄𝐍𝐃𝐄𝐑 𝐕𝟔 𝟒_𝟎𝐋 𝐏𝐄𝐓𝐑𝐎𝐋 𝐀T.jpeg" alt=""></div>
+    
+
+    <!--My Clicks-->
+    <div class="image-box me"><img src="private/IMG_20250705_225303.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224757.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224812.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224823.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224837.jpg" alt=""></div>   
+    <div class="image-box me"><img src="private/IMG_20250705_224853.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224905.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224918.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224932.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_224949.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_225030.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_225100.jpg" alt=""></div>
+    <div class="image-box me"><img src="private/IMG_20250705_225145.jpg" alt=""></div>       
+    <div class="image-box me"><img src="private/IMG_20250705_225046.jpg" alt=""></div>       
+    <div class="image-box me"><img src="private/IMG_20250705_225113.jpg" alt=""></div>       
+    <div class="image-box me"><img src="private/IMG_20250705_225126.jpg" alt=""></div>       
+    <div class="image-box me"><img src="private/IMG_20250705_225156.jpg" alt=""></div>       
+    <div class="image-box me"><img src="private/IMG_20250705_225210.jpg" alt=""></div>       
+    <div class="image-box me"><img src="private/IMG_20250705_225220.jpg" alt=""></div>    
+    <div class="image-box me"><img src="private/IMG_20250705_225235.jpg" alt=""></div>    
+    
+    
+  </div>
+
+  <div class="lightbox" id="lightbox"> 
+    <img id="lightbox-img" src="" alt="Preview" />
+    <div class="lightbox-controls">
+      <button onclick="prevImage()">⏮ Prev</button>
+      <button onclick="nextImage()">Next ⏭</button>
+      <button onclick="closeLightbox()">✖ Close</button>
+    </div>
+  </div>
+
+  <!--Footer for links-->
+
+  <footer class="footer">
+  <p>Connect with me:</p>
+  <div class="social-icons">
+    <a href="https://www.instagram.com/its_rutuja_tayde" target="_blank">
+      <img src= "private/instagram-alt-logo-24.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/in/rutuja-tayade-15a680357/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/RutujaTayade" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+    </a>
+  </div>
+  <p>&copy; 2025 Rutuja Tayade</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
