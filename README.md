@@ -9,7 +9,7 @@ A responsive and modern image gallery with:
 
 - ✅ Pinterest-style dynamic grid layout
 - ✅ Lightbox popup with next/prev/close controls
-- ✅ Category-based filtering (e.g., Nature, Animals, Me, etc.)
+- ✅ Category-based filtering (e.g., Nature, Animals, My Clicks, etc.)
 - ✅ Smooth hover animations and interactive UI
 - ✅ Fully responsive design for all screen sizes
 
@@ -35,7 +35,7 @@ A responsive and modern image gallery with:
 
 **📸 Features**  
 
-- 📁 Multiple categories: Nature, Animals, Books, Cars, Me, etc.  
+- 📁 Multiple categories: Nature, Animals, Books, Cars, My Clicks, etc.  
 - 🔍 Filter gallery with a single click  
 - 🌠 Hover zoom effects for interactive feel  
 - 📷 Lightbox view with navigation buttons  
